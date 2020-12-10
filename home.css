@@ -1,0 +1,78 @@
+body{
+    background-color: #fff;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+    /*margin: 0 auto;*/
+}
+.container > div{
+    background: padding: 1em;
+}
+
+
+
+/*==========================
+ Page Styles
+======================*/
+.box1 ul li{
+     display: inline;
+   font-family: cormorant-garamond, serif;
+    font-size: 40px;
+    color:#9F9F9F;
+    padding: 0;
+    }
+
+
+.box2 ul li{
+    display: inline;
+    font-family: cormorant-garamond, serif;
+    font-size: 40px;
+    color:#9F9F9F;
+}
+.box2 ul li a {
+    text-decoration: none;
+    color: #9F9F9F;
+    padding: 40px;
+    }
+
+.box3 {
+   font-family: cormorant-garamond, serif;
+   font-size: 30px;
+    color:#9F9F9F;
+    text-align: center;
+    margin: 50px;
+    padding: 40px;
+    
+}
+.box4 {
+    color:#9F9F9F;
+    text-align: right;
+}
+
+.box5 {
+    font-family: cormorant-garamond, serif;
+    font-size: 30px;
+    color:#000;
+    text-align: left;
+    background-color: #9F9F9F;
+    padding: 30px;
+    
+}
+
+.box6 {
+    text-align: left;
+    background-color: #9F9F9F;
+   padding: 30px;
+}
+
+/*footer {
+    text-align: center;
+    background-color: #9F9F9F;
+    margin: 0;
+    padding: 0;
+}*/
