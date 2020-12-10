@@ -29,7 +29,9 @@ body{
     text-align: right;
     }
 
-
+.box2{
+    text-align: right;
+}
 .box2 ul li{
     display: inline;
     font-family: cormorant-garamond, serif;
