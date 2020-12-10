@@ -19,12 +19,14 @@ body{
 /*==========================
  Page Styles
 ======================*/
+
 .box1 ul li{
      display: inline;
    font-family: cormorant-garamond, serif;
     font-size: 40px;
     color:#9F9F9F;
     padding: 0;
+    text-align: right;
     }
 
 
@@ -33,11 +35,13 @@ body{
     font-family: cormorant-garamond, serif;
     font-size: 40px;
     color:#9F9F9F;
+    text-align: right;
 }
 .box2 ul li a {
     text-decoration: none;
     color: #9F9F9F;
-    padding: 40px;
+    padding: 30px;
+    text-align: right;
     }
 
 .box3 {
@@ -54,7 +58,7 @@ body{
     text-align: right;
 }
 
-.box5 {
+/*.box5 {
     font-family: cormorant-garamond, serif;
     font-size: 30px;
     color:#000;
@@ -68,11 +72,16 @@ body{
     text-align: left;
     background-color: #9F9F9F;
    padding: 30px;
-}
+}*/
 
-/*footer {
+footer {
     text-align: center;
+    color: #fff;
     background-color: #9F9F9F;
     margin: 0;
     padding: 0;
-}*/
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
